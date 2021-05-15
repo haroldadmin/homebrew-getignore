@@ -1,9 +1,9 @@
 class Getignore < Formula
   desc "Fetch gitignore files for your projects right from the command-line"
   homepage "https://github.com/haroldadmin/getignore"
-  url "https://github.com/haroldadmin/getignore/releases/download/0.0.1/getignore-darwin-amd64"
+  url "https://github.com/haroldadmin/getignore/archive/refs/tags/0.0.1.tar.gz"
   version "0.0.1"
-  sha256 "747fd55b3a5dcaf3934c66fbe7dcbd59e13ef3e98f4a89a5949f1dcc8918c6fc"
+  sha256 "760774940f6406f6d457ba6c251cffe3ba47427d3619826bd08dcfe84b4f94e5"
   license "Apache-2.0"
 
   depends_on "go" => :build

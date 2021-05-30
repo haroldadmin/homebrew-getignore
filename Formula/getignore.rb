@@ -1,8 +1,8 @@
 class Getignore < Formula
   desc "Fetch gitignore files for your projects right from the command-line"
   homepage "https://github.com/haroldadmin/getignore"
-  url "https://github.com/haroldadmin/getignore/archive/refs/tags/0.0.2.tar.gz"
-  sha256 "f4424c57f401e8c313749ba236954ac07738344bb943bf4c8a0d89bc58ec6b28"
+  url "https://github.com/haroldadmin/getignore/archive/refs/tags/0.1.0.tar.gz"
+  sha256 "cf4a7521e2d0baf98a3eec014ec0f8035d7fd64de3f6fb1ac483e1d14bb3be18"
   license "Apache-2.0"
 
   bottle do
@@ -19,6 +19,6 @@ class Getignore < Formula
 
   test do
     output = shell_output("#{bin}/getignore --help")
-    assert_includes output, "Fetch .gitignore files right from the terminal"
+    assert_includes output, "getignore helps you fetch .gitignore files right from your terminal"
   end
 end

@@ -19,6 +19,6 @@ class Getignore < Formula
 
   test do
     output = shell_output("#{bin}/getignore --help")
-    assert_includes output, "Fetch .gitignore files right from the terminal"
+    assert_includes output, "getignore helps you fetch .gitignore files right from your terminal"
   end
 end

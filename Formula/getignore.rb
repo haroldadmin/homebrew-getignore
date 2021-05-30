@@ -6,9 +6,9 @@ class Getignore < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/haroldadmin/homebrew-getignore/releases/download/getignore-0.0.2"
-    sha256 cellar: :any_skip_relocation, catalina:     "16c5eafa87debece376c0f1fa5a0ed342012e2c849a7390b096a4d93ff17fbd4"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "aab5b2cba8f9b06c98b49739b1882bc16e17e2f473d7422e52bffa10d0769f82"
+    root_url "https://github.com/haroldadmin/homebrew-getignore/releases/download/getignore-0.1.0"
+    sha256 cellar: :any_skip_relocation, catalina:     "3328ea47484abb516d90bfed7e8887ef3ba963f7f497c9353ff72863977b8805"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "dd29a968c8ae467a670d56bd7fffc10ec3ec676dd962ec25ce87a1bf1a940411"
   end
 
   depends_on "go" => :build

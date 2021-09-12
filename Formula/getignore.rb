@@ -1,8 +1,8 @@
 class Getignore < Formula
   desc "Fetch gitignore files for your projects right from the command-line"
   homepage "https://github.com/haroldadmin/getignore"
-  url "https://github.com/haroldadmin/getignore/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "cf4a7521e2d0baf98a3eec014ec0f8035d7fd64de3f6fb1ac483e1d14bb3be18"
+  url "https://github.com/haroldadmin/getignore/archive/refs/tags/0.2.0.tar.gz"
+  sha256 "43116cb42e520fcbfae6e260157156bcbb7fc840270eb1fe16d33bfc9684fa85"
   license "Apache-2.0"
 
   bottle do
